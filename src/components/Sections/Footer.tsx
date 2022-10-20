@@ -18,7 +18,7 @@ const Footer: FC = memo(() => (
         <Socials />
       </div>
       <span className="text-sm text-neutral-700">© Copyright 2022, Javier Orti García 
-      based on a React template from Tim Baker</span>
+      based on a Next.js React template from Tim Baker</span>
     </div>
   </div>
 ));

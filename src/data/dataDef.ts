@@ -97,12 +97,12 @@ export interface TimelineItem {
  * Testimonial section
  */
 export interface TestimonialSection {
-  imageSrc?: string;
+  imageSrc?: string | StaticImageData;
   testimonials: Testimonial[];
 }
 
 export interface Testimonial {
-  image?: string | StaticImageData;
+  image?: string;
   name: string;
   text: string;
 }
